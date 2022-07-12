@@ -1,0 +1,12 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Dynamisez une page web avec des animations CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./styles/style.scss:./styles/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
