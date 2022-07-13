@@ -12,7 +12,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1300px;
   width: 100%;
 }
 
@@ -181,6 +181,7 @@ form .head-icone, form .head-icone a, form .head-icone i {
   align-items: center;
   width: 95%;
   text-align: center;
+  margin-left: 15px;
   margin-bottom: 16px;
   border: none;
   border-radius: 20px;
@@ -216,11 +217,11 @@ form .head-icone, form .head-icone a, form .head-icone i {
 }
 
 .Restaurants {
-  width: 100%;
+  width: 99%;
   margin: 0;
   display: flex;
-  align-items: center;
-  flex-flow: row wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 img {
@@ -232,17 +233,20 @@ img {
 
 .card {
   display: flex;
-  width: 98%;
+  width: 100%;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-images {
   display: flex;
+  margin-left: auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 16px 16px 0 0;
-  width: 600px;
+  border-radius: 15px 15px 0 0;
+  width: 500px;
   margin-bottom: 10px;
   position: relative;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
@@ -396,6 +400,7 @@ footer.container h2 {
 
   .Restaurants {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
